@@ -20,7 +20,7 @@ Sự khác biệt chính giữa Git và bất kỳ VCS nào khác (bao gồm Sub
 
 Về mặt khái niệm, hầu hết các hệ thống khác đều lưu trữ thông tin dưới dạng danh sách các thay đổi dựa trên file. Các hệ thống này (CVS, Subversion, Perforce, Bazaar, v.v.) coi thông tin chúng lưu giữ dưới dạng một tập hợp các file và những thay đổi được thực hiện đối với mỗi file theo thời gian.
 
-![Mosaic of Pluto in true color](https://topdev.vn/blog/wp-content/uploads/2019/02/git-la-gi.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173315605-66111018-514a-482e-ba2a-d06e81973cad.png)
 
 ## Ưu điểm của GIT là:
 
@@ -161,7 +161,7 @@ Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục t
 
 1. Tạo tài khoản GitHub
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-github-website.jpg)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173311849-7d286b02-3547-407d-a44a-b53d2495219f.png)
 
 Để tạo tài khoản của bạn, bạn cần truy cập trang web của GitHub và điền vào mẫu đăng ký.
 
@@ -192,11 +192,11 @@ _Cách thứ 1: Tạo kho lưu trữ, sao chép nó vào pc của bạn và làm
 
 Tạo một kho lưu trữ mới bằng cách nhấp vào nút Kho lưu trữ mới của Wikipedia trên trang web GitHub.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-t%E1%BA%A1o-repo.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312121-da4ea5a0-24ff-43d0-9941-954f247d446d.png)
 
 Chọn tên cho kho lưu trữ đầu tiên của bạn, thêm một mô tả nhỏ, đánh dấu vào ô ‘Khởi tạo kho lưu trữ này với README’ và nhấp vào nút Tạo kho lưu trữ.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-t%E1%BA%A1o-repo-2.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312279-72bcd828-7ad6-4e1d-a339-b8bf801a04d0.png)
 
 Kho GitHub đầu tiên của bạn được tạo.
 
@@ -204,7 +204,7 @@ Nhiệm vụ đầu tiên của bạn là lấy một bản sao của kho lưu t
 
 Để sao chép một kho lưu trữ có nghĩa là bạn đang lấy một kho lưu trữ trên máy chủ và sao chép nó vào máy tính của bạn – giống như tải xuống. Trên trang kho lưu trữ, bạn cần lấy địa chỉ HTTPS.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-l%E1%BA%A5y-repo.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312470-1204e5b4-324c-4c3c-9177-e0bb07166734.png)
 
 Khi bạn có địa chỉ của kho lưu trữ, bạn cần sử dụng terminal của mình. Sử dụng lệnh sau trên terminal của bạn. Khi bạn đã sẵn sàng, bạn có thể nhập lệnh này:
 
@@ -212,7 +212,7 @@ Khi bạn có địa chỉ của kho lưu trữ, bạn cần sử dụng termina
 
 Lệnh này sẽ tạo một bản sao cục bộ của kho lưu trữ tại địa chỉ đã cho.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-k%E1%BA%BFt-qu%E1%BA%A3-repo.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314285-4c3091bc-4070-41d4-95ef-7be64fd44910.png)
 
 Thông báo đầu ra của lệnh git clone bản sao
 
@@ -234,7 +234,7 @@ Bây giờ, trong terminal, bạn đang ở trong thư mục kho lưu trữ củ
 
 - git status
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-status.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314394-3f9665ca-eaa4-4a36-b723-1434985bc2f7.png)
 
 ‘add’: Với sự trợ giúp của danh sách thay đổi, bạn có thể thêm tất cả các tệp bạn muốn tải lên bằng lệnh sau,
 
@@ -248,7 +248,7 @@ Trong trường hợp của chúng ta, chúng ta sẽ thêm một tệp HTML đ�
 
 - git commit -m “Added sample HTML file that contain basic syntax”
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-commit.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314466-a25831b8-6ffd-4ac6-b2f4-c281cd16c8dc.png)
 
 ‘push’: Để làm điều đó, chúng ta phải ‘đẩy’ các tệp của mình lên Remote. Remote là một bản sao trùng lặp của kho lưu trữ ở một nơi khác trên máy chủ từ xa. Để làm điều này, chúng ta phải biết tên của Remote (Chủ yếu là từ xa được đặt tên gốc). Để tìm ra tên đó, gõ lệnh sau.
 
@@ -260,7 +260,7 @@ Như bạn có thể thấy trong hình trên, nó nói rằng tên từ là ori
 
 Bây giờ, nếu chúng ta truy cập kho lưu trữ của mình trên trang web GitHub, chúng ta có thể thấy tệp sample.html mà chúng ta đã đẩy đến từ xa – GitHub!
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-push.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312470-1204e5b4-324c-4c3c-9177-e0bb07166734.png)
 
 *LƯU Ý : Đôi khi, khi bạn đang sử dụng các lệnh Git trong terminal, nó có thể dẫn bạn đến trình soạn thảo văn bản VIM (trình soạn thảo văn bản dựa trên CLI). Vì vậy, để thoát khỏi nó, bạn phải gõ
 
@@ -270,7 +270,7 @@ và ENTER.
 
 Mô tả cách pull và push làm việc:
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-pull-v%C3%A0-push.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314720-36352134-acfd-4d8d-bb88-a9086a1a4474.png)
 
 Pull là hành động nhận từ GitHub.
 
@@ -286,13 +286,13 @@ Theo mặc định, bất kỳ thư mục nào trên máy tính không phải l�
 
 - git init
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-init.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314840-f64fce8b-75cc-42bb-bd9f-3e40889e85bd.png)
 
 Sau khi chuyển đổi thư mục của chúng ta sang kho lưu trữ Git, điều đầu tiên chúng ta cần làm là kiểm tra các tệp chúng ta có bằng cách sử dụng lệnh sau.
 
 - git status
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-status-2.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173314953-09ded956-8592-4059-b9f2-1e3d3c79e9f0.png)
 
 Vì vậy, có hai tập tin trong thư mục đó mà chúng ta cần để thêm vào Repo của chúng ta.
 
@@ -306,7 +306,7 @@ Sau khi khu vực tổ chức (quá trình thêm) hoàn tất, chúng ta có th�
 
 Nếu những tệp cụ thể đó có màu xanh lục như hình dưới đây, bạn đã hoàn thành công việc của mình!
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-git-add-green.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173315080-cc952a08-b46f-497c-9d76-614af3f94fab.png)
 
 Sau đó, chúng ta phải commit với một mô tả trong đó.
 
@@ -318,11 +318,11 @@ Vì vậy, để thêm Remote, chúng ta phải vào GitHub trước. Tạo mộ
 
 *LƯU Ý: Trong Loại 2, Vui lòng không khởi tạo kho lưu trữ với tệp README khi tạo kho lưu trữ mới trên trang web GitHub.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-new-repo-2.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312279-72bcd828-7ad6-4e1d-a339-b8bf801a04d0.png)
 
 Sau khi nhấp vào nút Tạo kho lưu trữ, bạn sẽ tìm thấy dạng trang web.
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-web-page.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173313680-0926ac3f-ab44-43cd-a21c-83769318aefb.png)
 
 Sao chép địa chỉ HTTPS. Bây giờ chúng ta sẽ tạo Remote cho kho lưu trữ của mình.
 
@@ -344,4 +344,4 @@ Bây giờ, chúng ta có thể đẩy dự án của mình lên GitHub mà khô
 
 Sau khi hoàn thành từng bước một, nếu bạn truy cập GitHub, bạn có thể tìm thấy kho lưu trữ của mình với các tệp!
 
-![Mosaic of Pluto in true color](https://nordiccoder.com/app/uploads/2020/03/65-k%E1%BA%BFt-qu%E1%BA%A3.png)
+![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312470-1204e5b4-324c-4c3c-9177-e0bb07166734.png)
