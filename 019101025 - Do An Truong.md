@@ -212,7 +212,7 @@ Khi bạn có địa chỉ của kho lưu trữ, bạn cần sử dụng termina
 
 Lệnh này sẽ tạo một bản sao cục bộ của kho lưu trữ tại địa chỉ đã cho.
 
-![Image](https://user-images.githubusercontent.com/107382675/173314285-4c3091bc-4070-41d4-95ef-7be64fd44910.png)
+![Image](https://user-images.githubusercontent.com/107389856/173522116-dd2c1d13-6691-430a-b504-1a8a36a80247.png)
 
 Thông báo đầu ra của lệnh git clone bản sao
 
@@ -234,7 +234,7 @@ Bây giờ, trong terminal, bạn đang ở trong thư mục kho lưu trữ củ
 
     - git status
 
-![Image](https://user-images.githubusercontent.com/107382675/173314394-3f9665ca-eaa4-4a36-b723-1434985bc2f7.png)
+![Image](https://user-images.githubusercontent.com/107389856/173522836-8503e5e4-ba38-4f27-902a-0bf982c40b22.png)
 
 ‘add’: Với sự trợ giúp của danh sách thay đổi, bạn có thể thêm tất cả các tệp bạn muốn tải lên bằng lệnh sau,
 
@@ -248,7 +248,7 @@ Trong trường hợp của chúng ta, chúng ta sẽ thêm một tệp HTML đ�
 
     - git commit -m “Added sample HTML file that contain basic syntax”
 
-![Image](https://user-images.githubusercontent.com/107382675/173314466-a25831b8-6ffd-4ac6-b2f4-c281cd16c8dc.png)
+![Image](https://user-images.githubusercontent.com/107389856/173523002-618b4b71-cdd0-4c99-a4b7-fd28e6d7c355.png)
 
 ‘push’: Để làm điều đó, chúng ta phải ‘đẩy’ các tệp của mình lên Remote. Remote là một bản sao trùng lặp của kho lưu trữ ở một nơi khác trên máy chủ từ xa. Để làm điều này, chúng ta phải biết tên của Remote (Chủ yếu là từ xa được đặt tên gốc). Để tìm ra tên đó, gõ lệnh sau.
 
@@ -286,13 +286,13 @@ Theo mặc định, bất kỳ thư mục nào trên máy tính không phải l�
 
     - git init
 
-![Image](https://user-images.githubusercontent.com/107382675/173314840-f64fce8b-75cc-42bb-bd9f-3e40889e85bd.png)
+![Image](https://user-images.githubusercontent.com/107389856/173523170-b961588b-30c8-4489-9315-2d4386f522f6.png)
 
 Sau khi chuyển đổi thư mục của chúng ta sang kho lưu trữ Git, điều đầu tiên chúng ta cần làm là kiểm tra các tệp chúng ta có bằng cách sử dụng lệnh sau.
 
     - git status
 
-![Image](https://user-images.githubusercontent.com/107382675/173314953-09ded956-8592-4059-b9f2-1e3d3c79e9f0.png)
+![Image](https://user-images.githubusercontent.com/107389856/173522836-8503e5e4-ba38-4f27-902a-0bf982c40b22.png)
 
 Vì vậy, có hai tập tin trong thư mục đó mà chúng ta cần để thêm vào Repo của chúng ta.
 
@@ -306,7 +306,7 @@ Sau khi khu vực tổ chức (quá trình thêm) hoàn tất, chúng ta có th�
 
 Nếu những tệp cụ thể đó có màu xanh lục như hình dưới đây, bạn đã hoàn thành công việc của mình!
 
-![Image](https://user-images.githubusercontent.com/107382675/173315080-cc952a08-b46f-497c-9d76-614af3f94fab.png)
+![Image](https://user-images.githubusercontent.com/107389856/173523453-865e14b2-6dce-4d38-a259-59e005960ddb.png)
 
 Sau đó, chúng ta phải commit với một mô tả trong đó.
 
