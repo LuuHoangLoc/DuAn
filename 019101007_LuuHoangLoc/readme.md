@@ -12,6 +12,7 @@
 ###### b)git init
 ###### c)git clone
 ###### d)git status
+###### f)git commit
 ###### e)git add
 ###### g)git push/ git pull
 ###### h)git branch
