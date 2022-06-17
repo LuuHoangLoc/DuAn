@@ -1,11 +1,11 @@
 # GIỚI THIỆU Microservices 
 
-## Microservices là gì ?
+## Microservices 
 
 Là tên gọi của các dịch vụ nhỏ thuộc dạng tách biệt đại diện cho 1 phần nhỏ tương ứng bên trong các Business domain của lập trình viên. Với kiến thức Monolithic thì bạn sẽ sở hữu một server lớn với khả năng chịu mọi trách nhiệm giải quyết hầu hết các requests. Và việc này sẽ gây ra khá nhiều khó khăn trên các phương tiện đối với tất cả requests. 
 Chính vì vậy, Microservices được xem như giải pháp có thể cân bằng được tất cả các traffic dựa theo yêu cầu của doanh nghiệp. Và nếu như bạn đang nhận một lượng lớn các thanh toán thì hầu hết bạn sẽ có thể scale up thiết bị thanh toán và giữ cho các dịch vụ nằm ở mức sử dụng 1 lượng nhỏ hơn so với các services.
 
-## Microservices có tác dụng như thế nào ?
+## Mục đích sử dụng Microservices 
 
 1.Trong kiến trúc Microservices, các service (dự án) tồn tại độc lập nhau về xử lý (process), lưu trữ (database) và request (client/server model)
 
@@ -48,7 +48,7 @@ Order service (sử dụng table tc_order). Trong đó table tc_order chỉ ch�
 
 7.Lập trình viên cần phải xử lý các sự cố kết nối chậm, lỗi nếu như thông điệp không được gửi hoặc nếu như thông điệp được gửi đến nhiều đích đến vào các thời điểm khác nhau. 
 
-## Ví dụ chỉ ra sự khác biệt giữa kiến trúc Microservices với kiến trúc Monolithic là gì ?
+## Sự khác biệt giữa kiến trúc Microservices với kiến trúc Monolithic 
 
  Monolithic có những tính chất và ưu nhược điểm như:
 
