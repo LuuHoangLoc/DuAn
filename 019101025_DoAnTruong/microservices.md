@@ -1,23 +1,25 @@
-# Giới thiệu Microservices
+# Chương 2: Microservices
 
-## Microservices là gì?
+## 1. Khái niệm của Microservices
 
 Microservices là tên gọi của các dịch vụ nhỏ thuộc dạng tách biệt đại diện cho 1 phần nhỏ tương ứng bên trong các Business domain của lập trình viên. Với kiến thức Monolithic thì bạn sẽ sở hữu một server lớn với khả năng chịu mọi trách nhiệm giải quyết hầu hết các requests. Và việc này sẽ gây ra khá nhiều khó khăn trên các phương tiện đối với tất cả requests. 
 
-## Kiến trúc của microservices là gì?
+## 2. Kiến trúc của microservices
 
 Bên trong kiến trúc của Microservices thì các services sẽ tồn tại độc lập nhau về xử lý, lưu trữ và cả request. Và cấu trúc cụ thể của nó sẽ như hình sau: 
 
 ![Image](https://user-images.githubusercontent.com/107389856/173475379-a9a370fc-aac8-45fb-b170-4dd6dc637998.png)
 
-Ví dụ như sau: nếu như bạn cần xây dựng một hệ thống để bán hàng dựa trên Microservices thì giả giả sử đơn hàng sẽ cần tối thiểu 4 service với database độc lập như sau:
+Ví dụ như sau: nếu như người dùng cần xây dựng một hệ thống để bán hàng dựa trên Microservices thì giả giả sử đơn hàng sẽ cần tối thiểu 4 service với database độc lập như sau:
 
 - Employee service (sử dụng table tc-employee)
 - Store service (sử dụng table tc-store)
 - Inventory service (sử dụng table tc-warehouse)
 - Order service (sử dụng table tc-order)
 
-## Ưu điểm của microservices:
+## 3. Ưu điểm và hạn chế của microservices
+
+#### 3.1. Ưu điểm của microservices
 
 - Khi cần thay đổi một thành phần, thì chỉ cần sửa đổi, cập nhật và triển khai lại thành phần đó chứ không cần triển khai lại toàn bộ hệ thống.
 
@@ -37,7 +39,7 @@ Ví dụ như sau: nếu như bạn cần xây dựng một hệ thống để b
 
 - Cô lập lỗi tốt hơn, khi một microservice bị lỗi và ngừng hoạt động thì các microservice khác vẫn có thể hoạt động bình thường. Với mô hình nguyên khối, một lỗi nhỏ có thể làm cả hệ thống ngừng hoạt động.
 
-## Nhược điểm của microservices:
+#### 3.2. Hạn chế của microservices
 
 - Nhược điểm của kiến trúc microservice đến từ bản chất của hệ thống phân tán.
 
@@ -51,7 +53,7 @@ Ví dụ như sau: nếu như bạn cần xây dựng một hệ thống để b
 
 - Khi ứng dụng ngày càng lớn lên, số lượng microservice ngày càng nhiều, các lập trình viên thường có xu hướng sử dụng sự hỗ trợ từ các công cụ mã nguồn mở, hoặc của bên thứ 3, việc sử dụng, tích hợp các công cụ này làm cho hệ thống khó kiểm soát và có thể bị dính các mã độc làm cho hệ thống kém an toàn.
 
-## Lợi ích của việc dùng microservices:
+## 4. Lợi ích của việc dùng microservices
 
 - Source code rất tinh gọn: Bởi vì hệ thống được cấu thành từ các dự án nhỏ, và mỗi dự án đều rất đơn giản cũng như tập trung vào 1 hoặc 1 vài nghiệp vụ chính. Vì vậy, các code base và độ phức tạp của chúng đều không cao. Nhờ vậy, nó sẽ giúp mang lại tính gọn nhẹ, dễ bảo trì cũng như mở rộng hơn. 
 
@@ -59,17 +61,17 @@ Ví dụ như sau: nếu như bạn cần xây dựng một hệ thống để b
 
 - Được tồn tại độc lập: Bởi vì đây là 4 dự án khác nhau và chúng có thể có cách deploy riêng biệt và một service nào đó chết thì các service khác vẫn sẽ hoạt động một cách bình thường. 
 
-- Scale hoàn toàn độc lập: Tùy thuộc vào nhu cầu sử dụng của hệ thống mà bạn có thể scale riêng cho service đó. Có thể như service đơn hàng mà sử dụng thường xuyên nên chạy từ 2 đến 3 server để gia tăng performance. 
+- Scale hoàn toàn độc lập: Tùy thuộc vào nhu cầu sử dụng của hệ thống mà người dùng có thể scale riêng cho service đó. Có thể như service đơn hàng mà sử dụng thường xuyên nên chạy từ 2 đến 3 server để gia tăng performance. 
 
-## Sự khác biệt của kiến trúc microservices đối với các kiến trúc khác như nào?
+## 5. Sự khác biệt của kiến trúc microservices đối với các kiến trúc khác
 
-#### Sự khác biệt giữa Microservices và Monolithic
+#### 5.1. Sự khác biệt giữa Microservices và Monolithic
 
 ![Image](https://user-images.githubusercontent.com/107389856/173479161-4e645c2e-8dc4-4c1e-bfc7-d42783903312.png)
 
-Biểu đồ ở trên giải thích sự khác biệt giữa kiến trúc Monolithic và kiến trúc Microservice rất rất đơn giản. Với kiến trúc Monolithic, bạn sẽ có 1 server lớn chịu trách nhiệm giải quyết tất cả các requests. Việc này sẽ gây khó khăn rất nhiều trên phương diện scale. Tuy nhiên, Microservices có thể cân bằng traffic theo nhu cầu của doanh nghiệp. Nếu đang nhận được 1 lượng lớn thanh toán, bạn có thể scale up thiết bị thanh toán và giữ các dịch vụ khác ở mức sử dụng 1 lượng nhỏ hơn các services. Đây được gọi là scaling theo chiều ngang.
+Biểu đồ ở trên giải thích sự khác biệt giữa kiến trúc Monolithic và kiến trúc Microservice rất rất đơn giản. Với kiến trúc Monolithic, bạn sẽ có 1 server lớn chịu trách nhiệm giải quyết tất cả các requests. Việc này sẽ gây khó khăn rất nhiều trên phương diện scale. Tuy nhiên, Microservices có thể cân bằng traffic theo nhu cầu của doanh nghiệp. Nếu đang nhận được 1 lượng lớn thanh toán, người dùng có thể scale up thiết bị thanh toán và giữ các dịch vụ khác ở mức sử dụng 1 lượng nhỏ hơn các services. Đây được gọi là scaling theo chiều ngang.
 
-#### Sự khác biệt giữa Microservices và API
+#### 5.2. Sự khác biệt giữa Microservices và API
 
 - API là tập hợp các phương thức giao tiếp, truyền thông được xác định một cách rõ ràng các thành phần khác nhau.
 

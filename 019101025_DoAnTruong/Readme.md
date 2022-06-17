@@ -1,30 +1,41 @@
 # Mục Lục
 
-## Giới thiệu về GIT
-#### GIT là gì ?
-#### GIT có tác dụng như thế nào ?
-#### GIT hoạt động như thế nào ?
-#### Ưu điểm của GIT
-#### Hạn chế của GIT
-#### Các thuật ngữ GIT quan trọng
-#### Các lệnh GIT cơ bản
-#### So sánh GIT và các phần mềm khác
-#### Khi sử dụng GIT
-#### Khi không sử dụng GIT
-#### Cách sử dụng GIT
-## Giới thiệu về Microservices
-#### Microservices là gì ?
-#### Kiến trúc của microservices là gì?
-#### Ưu điểm của microservices
-#### Nhược điểm của microservices
-#### Lợi ích của việc dùng microservices
-#### Sự khác biệt của kiến trúc microservices đối với các kiến trúc khác như nào ?
-## Giới thiệu về Spring Boot
-#### Spring framework là gì ?
-#### Spring Boot là gì ?
-#### Ưu điểm và nhược điểm
-#### Tại sao Sử dụng Spring Boot ?
-#### Tại sao Spring Boot áp dụng trong microservices ?
+## Chương 1: Git
+1. Khái niệm của Git
+2. Tác dụng của Git
+3. Cách Git hoạt động
+4. Ưu điểm và hạn chế của GIT
+
+- 4.1. Ưu điểm của GIT
+- 4.2. Hạn chế của GIT
+
+5. Các thuật ngữ GIT
+6. Các lệnh GIT cơ bản
+7.  Sự khác biệt của GIT và các phần mềm khác
+8. Khi sử dụng GIT
+9. Khi không sử dụng GIT
+10. Cách sử dụng GIT
+- 10.1. Tạo tài khoản GitHub
+- 10.2. Cài đặt Git
+- 10.3. Cách Sử dụng Git
+## Chương 2: Microservices
+1. Khái niệm của Microservices
+2. Kiến trúc của microservices
+3. Ưu điểm và hạn chế của microservices
+- 3.1. Ưu điểm của microservices
+- 3.2. Hạn chế của microservices
+4. Lợi ích của việc dùng microservices
+5. Sự khác biệt của kiến trúc microservices đối với các kiến trúc khác
+- 5.1. Sự khác biệt giữa Microservices và Monolithic
+- 5.2. Sự khác biệt giữa Microservices và API
+## Chương 3: Spring Boot
+1. Khái niệm của Spring framework
+2. Khái niệm của Spring Boot
+3. Ưu điểm và hạn chế của Spring Boot
+- 3.1. Ưu điểm của Spring Boot
+- 3.2. Hạn chế của Spring Boot
+4. Tác dụng của Spring Boot
+5. Cách hoạt động Spring Boot trong microservices
 # Giới thiệu bản thân
 
 - Tên: Đỗ An Trường / MSSV: 019101025
