@@ -1,12 +1,12 @@
 # BÀI BÁO CÁO
 
-# GIỚI THIỆU VỀ GIT
+## PHẦN1:GIỚI THIỆU VỀ GIT
 
-## GIT là gì?
+### 1.1) GIT là gì:
 
  Là một hệ thống quản lý phiên bản phân tán(Distributed Version Control System-DVCS)ra đời vào năm 2005 và hiện được dùng rất phổ biến.So với các hệ thống quản lý phiên bản tập trung khi tất cả các mã nguồn và lịch sử thay đổi chỉ được lưu một nơi là máy chủ thì trong hệ thống phân tán, các máy không chỉ "check out" phiên bản mới nhất của các tập tin mà là sao chép(mirror)toàn bộ kho mã nguồn(repository).Như vậy, nếu như máy chủ ngừng hoạt động , thì bạn hoàn toàn có thể lấy kho chứa từ bắt kì máy khách nào để sao chép ngược trở lại máy chủ để khôi phục lại toàn bộ hệ thống.Mỗi checkout thực sự là một bản sao đầy đủ của tất cả dữ liệu của kho chưá từ máy chủ.
 
-## Công Dung Của GIT?
+## 1.2) Công Dung Của GIT:
 
 a. Lưu lại lịch sử các version của bất kỳ thay đổi nào của dự án. Giúp xem lại các sự thay đổi hoặc khôi phục (revert) lại sau này.
 
@@ -14,7 +14,7 @@ b. Việc chia sẻ code trở nên dễ dàng hơn, lập trình viên có th�
 
 c. Vốn là một VCS nên Git cũng ghi nhớ lại toàn bộ lịch sử thay đổi của source code trong dự án. Lập trình sửa file, thêm dòng code tại đâu, xóa dòng code ở hàng nào…đều được Git ghi nhận và lưu trữ lại.
 
-## GIT hoạt động như thế nào?
+## 1.3) GIT hoạt động như thế nào:
 
 Sự khác biệt chính giữa Git và bất kỳ VCS nào khác (bao gồm Subversion…) là cách Git nghĩ về dữ liệu của nó.
 
@@ -22,7 +22,7 @@ Về mặt khái niệm, hầu hết các hệ thống khác đều lưu trữ t
 
 ![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173315605-66111018-514a-482e-ba2a-d06e81973cad.png)
 
-## Những Ưu điểm của GIT là:
+## 1.4) Những Ưu điểm của GIT là:
 
 - Dễ sử dụng, thao tác nhanh, gọn, lẹ và rất an toàn.
 
@@ -32,7 +32,7 @@ Về mặt khái niệm, hầu hết các hệ thống khác đều lưu trữ t
 
 - Deployment sản phẩm của bạn một cách không thể nào dễ dàng hơn.
 
-## Những Nhược điểm của GIT là:
+## 1.5) Những Nhược điểm của GIT là:
 
 + Thuật toán SHA1 sự va chạm giá trị băm làm cho các pc thông thường làm hư hỏng một kho git.
 
@@ -40,98 +40,98 @@ Về mặt khái niệm, hầu hết các hệ thống khác đều lưu trữ t
 
 + Các tập tin không liên quan mà luôn luôn bị thay đổi, Git có thể chịu thiệt thòi hơn các hệ thống khác bởi vì các tập tin không được giữ dấu viết từng cái riêng lẻ.
 
-## Các thuật ngữ GIT quan trọng là:
+## 1.6) Các thuật ngữ GIT quan trọng là:
 
 - Branch - Commit - Checkout - Fetch - Fork - Head - Index - Master - Merge - Origin - Pull - Push - Rebase - Remote - Repository - Stash - Tags - Upstream
 
-## Các lệnh GIT cơ bản là:
-1. git config
+## 1.7) Các lệnh GIT cơ bản là:
+- a)git config
 
 Tác dụng : Để set user name và email của bạn trong main configuration file.
 
 Cách xài : Để kiểm tra tên và kiểu email trong cấu hình dùng git config -- global user.name và git config -- global user.email. Để set email hoặc tên mới git config -- global user.name = “Hải Nguyễn” và git config -- global user.email = “hainguyen@gmail.com”
 
-2. git init
+- b)git init
 
 Tác dụng : Khởi tạo 1 git repository 1 project mới hoặc đã có.
 
 Cách xài: git init trong thư mục gốc của dự án.
 
-3. git clone
+- c)git clone
 
 Tác dụng: Copy 1 git repository từ remote source.
 
 Cách xài: git clone <:clone git url:>
 
-4. git status
+- d)git status
 
 Tác dụng: Để check trạng thái của những file bạn đã thay đổi trong thư mục làm việc. VD: Tất cả các thay đổi cuối cùng từ lần commit cuối cùng.
 
 Cách xài: git status trong thư mục làm việc.
 
-5. git add
+- e)git add
 
 Tác dụng: Thêm thay đổi đến stage/index trong thư mục làm việc.
 
 Cách xài: git add
 
-6. git commit
+- f)git commit
 
 Tác dụng: commit nghĩa là một action để Git lưu lại một snapshot của các sự thay đổi trong thư mục làm việc. Và các tập tin, thư mục được thay đổi đã phải nằm trong Staging Area. Mỗi lần commit nó sẽ được lưu lại lịch sử chỉnh sửa của code kèm theo tên và địa chỉ email của người commit. Ngoài ra trong Git bạn cũng có thể khôi phục lại tập tin trong lịch sử commit của nó để chia cho một branch khác, vì vậy bạn sẽ dễ dàng khôi phục lại các thay đổi trước đó.
 
 Cách dùng: git commit -m ”Đây là message, bạn dùng để note những thay đổi để sau này dễ dò lại”
 
-7. git push/ git pull
+- g)git push/ git pull
 
 Tác dụng: Push hoặc Pull các thay đổi đến remote. Nếu bạn đã added và committed các thay đổi và bạn muốn đẩy nó lên hoặc remote của bạn đã update và bạn apply tất cả thay đổi đó trên code của mình.
 
 Cách dùng: git pull <:remote:> <:branch:> and git push <:remote:> <:branch:>
 
-8. git branch
+- h)git branch
 
 Tác dụng: liệt kê tất cả các branch (nhánh).
 
 Cách dùng: git branch hoặc git branch -a
 
-9. git checkout
+- i)git checkout
 
 Tác dụng: Chuyển sang branch khác
 
 Cách dùng: git checkout <: branch:> hoặc ** _ git checkout -b <: branch:> nếu bạn muốn tạo và chuyển sang một chi nhánh mới.
 
-10. git stash
+- k)git stash
 
 Tác dụng: Lưu thay đổi mà bạn không muốn commit ngay lập tức.
 
 Cách dùng: git stash trong thư mục làm việc của bạn.
 
-11. git merge
+- l)git merge
 
 Tác dụng: Merge 2 branch lại với nahu.
 
 Cách dùng: Chuyển tới branch bạn muốn merge rồi  dùng git merge <:branch_ban_muon_merge:>
 
-12. git reset
+- m)git reset
 
 Tác dụng: Bạn đã đưa một tập tin nào đó vào Staging Area nhưng bây giờ bạn muốn loại bỏ nó ra khỏi đây để không phải bị commit theo.
 
 Cách dùng: git reset HEAD tên_file
 
-13. git remote
+- n)git remote
 
 Tác dụng: Để check remote/source bạn có hoặc add thêm remote
 
 Cách dùng: git remote để kiểm tra và liệt kê. Và git remote add <: remote_url:> để thêm.
 
-14. git add
+- o) git add
 
 Tác dụng: Để đưa một tập tin vào Staging Area
 
 Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục thì git add all
 
-## So sánh GIT và các phần mềm khác
+## 1.8) So sánh GIT và các phần mềm khác:
 Đây là điểm khác biệt quan trọng giữa Git và gần như tất cả các VCS khác. Nó khiến Git phải xem xét lại hầu hết mọi khía cạnh của kiểm soát phiên bản mà hầu hết các hệ thống khác đã sao chép từ thế hệ trước. Điều này làm cho Git giống như một hệ thống tệp nhỏ với một số công cụ cực kỳ mạnh mẽ được xây dựng trên nó, thay vì chỉ đơn giản là một VCS.
-## Khi sử dụng GIT
+## 1.9) Khi sử dụng GIT:
 
 - Lưu lại được các phiên bản khác nhau của mã nguồn dự án phần mềm.
 
@@ -147,7 +147,7 @@ Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục t
 
 - Giúp phối hợp thực hiện dự án trong một nhóm 1 cách hiệu quả.
 
-## Khi không sử dụng GIT
+## 2.0) Khi không sử dụng GIT:
 
 - Không khôi phục được mã code lỡ xóa gây ra lỗi.
 
@@ -157,15 +157,15 @@ Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục t
 
 - Khả năng phối hợp dự án trong nhóm bị hạn chế.
 
-## Cách sử dụng GIT
+## 2.1) Cách sử dụng GIT:
 
-1. Tạo tài khoản GitHub
+a. Tạo tài khoản GitHub
 
 ![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173311849-7d286b02-3547-407d-a44a-b53d2495219f.png)
 
 Để tạo tài khoản của bạn, bạn cần truy cập trang web của GitHub và điền vào mẫu đăng ký.
 
-2. Cài đặt Git
+b. Cài đặt Git
 
 Bây giờ chúng ta cần cài đặt các công cụ của Git trên máy tính. Chúng ta sẽ sử dụng CLI để liên lạc với GitHub.
 
@@ -186,7 +186,7 @@ Chạy các lệnh sau với thông tin của bạn để đặt tên người d
 
 - git config –global user.email “example@mail.com”
 
-3. Sử dụng Git theo hai cách
+c. Sử dụng Git theo hai cách
 
 _Cách thứ 1: Tạo kho lưu trữ, sao chép nó vào pc của bạn và làm việc với nó.
 
@@ -262,11 +262,7 @@ Bây giờ, nếu chúng ta truy cập kho lưu trữ của mình trên trang we
 
 ![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312470-1204e5b4-324c-4c3c-9177-e0bb07166734.png)
 
-*LƯU Ý : Đôi khi, khi bạn đang sử dụng các lệnh Git trong terminal, nó có thể dẫn bạn đến trình soạn thảo văn bản VIM (trình soạn thảo văn bản dựa trên CLI). Vì vậy, để thoát khỏi nó, bạn phải gõ
-
-- :q
-
-và ENTER.
+*LƯU Ý : Đôi khi, khi bạn đang sử dụng các lệnh Git trong terminal, nó có thể dẫn bạn đến trình soạn thảo văn bản VIM (trình soạn thảo văn bản dựa trên CLI). Vì vậy, để thoát khỏi nó, bạn phải gõ và ENTER.
 
 Mô tả cách pull và push làm việc:
 
@@ -345,52 +341,3 @@ Bây giờ, chúng ta có thể đẩy dự án của mình lên GitHub mà khô
 Sau khi hoàn thành từng bước một, nếu bạn truy cập GitHub, bạn có thể tìm thấy kho lưu trữ của mình với các tệp!
 
 ![Mosaic of Pluto in true color](https://user-images.githubusercontent.com/107382675/173312470-1204e5b4-324c-4c3c-9177-e0bb07166734.png)
-
-## Microservices là gì?
-Microservices là tên gọi của các dịch vụ nhỏ thuộc dạng tách biệt đại diện cho 1 phần nhỏ tương ứng bên trong các Business domain của lập trình viên. Với kiến thức Monolithic thì bạn sẽ sở hữu một server lớn với khả năng chịu mọi trách nhiệm giải quyết hầu hết các requests. Và việc này sẽ gây ra khá nhiều khó khăn trên các phương tiện đối với tất cả requests. 
-
-## Kiến trúc Microservices
-
-Khác biệt với kiến trúc Monolith, hay vì gom tất cả module thành một khối (monolith), ta tách các module thành những service siêu nhỏ. Mỗi service sẽ được đặt trên một server riêng (Có thể dùng server cloud như AWS hoặc Azure), giao tiếp với nhau thông qua mạng (Gửi nhận message qua giao thức HTTP hoặc sử dụng MessageQueue)...
-
-## Và một phần mềm xây dựng theo kiến trúc Microservices trông sẽ như nào?
-
-Còn hình dưới sẽ minh họa việc ứng dụng ở trên khi được xây dựng theo kiến trúc Microservices
-
-![Mosaic of Pluto in true color](https://images.viblo.asia/77613fcb-3b84-4de7-a463-d10a85eee9db.png)
-
-## Các ưu điểm của Kiến trúc Microservices với các kiến trúc khác
-
-Hiện nay, các ứng dụng thường rất lớn và liên tục được update ví dụ như facebook, linkin,... . Với kiến trúc monolith, việc gom toàn bộ ứng dụng vào một khối làm việc nâng cấp trở nên khó khăn và mất thời gian. Để giải quyết vấn đề đó, các ứng dụng lớn cần thiết được tách ra thành các service nhỏ. Mỗi service quản lý một cơ sở dữ liệu riêng, nằm trên một server riêng, tách biệt hoàn toàn với nhau. Các ưu điểm như sau:
-
-- Điều quan trọng nhất là rất dễ nâng cấp và scale up, scale down. Giả sử bạn làm một trang web liên quan tới vận tải, kho bãi. Khi số lượng xe hay hàng hóa tăng lên, chỉ việc nâng cấp server cho service liên quan đến nghiệp vụ kho vận(ngược lại, có thể giảm server nếu cần thiết). Với cloud computing, việc nâng cấp server vô cùng dễ dàng chỉ với vài cú click chuột. Điều này rất khó thực hiện với monolith.
-
-- Do tách biệt nên nếu một service bị lỗi, toàn bộ hệ thống vẫn hoạt động bình thường. Với monolith, một module bị lỗi có thể sẽ kéo sập toàn bộ hệ thống.
-
-- Các service nằm tách biệt nhau, chúng có thể được sử dụng các ngôn ngữ lập trình riêng, database riêng. VD service xử lý ảnh có thể viết bằng C++, service tổng hợp data có thể viết bằng Python.
-
-- Có thể áp dụng được các quy trình tự động hóa, như build, deploy, monitoring,...
-
-- Khi chia nhỏ các service, team size sẽ giảm và mọi người sẽ làm việc hiệu quả hơn
-
-- Về tính bảo mật nó sẽ có độ an toàn cao hơn bởi vì mỗi feature nằm ở từng service riêng biệt và mỗi service có cơ chế bảo mật riêng và khác nhau. nên sẽ rất khó sâm nhập vào hết được
-## Spring Boot là gì?
-
-**Spring Boot** là một dự án phát triển bởi JAV (ngôn ngữ java) trong hệ sinh thái Spring framework. Nó giúp cho các lập trình viên chúng ta đơn giản hóa quá trình lập trình một ứng dụng với Spring, chỉ tập trung vào việc phát triển business cho ứng dụng, giúp giảm tải công việc cấu hình(configuration).
-
- **Spring Boot** chính là một Java framework siêu to và khổng lồ và có nhiều khả năng hữu ích vì nó có thể giúp lập trình viên giải quyết rất nhiều vấn đề. So với framework Spring thông thường, Spring Boot tỏ ra những lợi thế vượt trội. Khi sử dụng Spring Boot, rất nhiều thứ được cải tiến hỗ trợ lập trình viên như:
-
- - Auto config: tự động cấu hình thay lập trình viên, bạn chỉ cần viết code và tiến hành chạy hệ thống là được.
- - Dựa trên các Annotation để tạo lập các bean thay vì XML.
- - Server Tomcat có thể được nhúng ngay trong file JAR build ra và có thể chạy ở bất kì đâu mà java chạy được.
-
- Khi sử dụng **Spring Boot**, lập trình viên chỉ cần:
-- Sử dụng Spring Initializr: nhập các thông tin của dự án (project), chọn thư viện (Library) rồi tải code về máy.
-- Mở mã nguồn (source code) và bắt đầu viết code.
-- Có thể chạy ngay trong IDE, hoặc build thành file JAR mà không cần cấu hình config cho server nữa.
-
-**Tại sao Spring Boot áp dụng trong microservice?**
-
-Vì Spring Boot tự động hóa thiết lập, nhúng máy chủ và đơn giản hóa việc quản lý phụ thuộc, nên rất dễ sử dụng kiến trúc microservice. Spring Boot cho phép các nhóm phát triển xây dựng dịch vụ một cách dễ dàng và hiệu quả vì quá trình thiết lập ban đầu và tải xuống các máy chủ hoặc gói ứng dụng cần thiết mất rất ít thời gian.
-
-
