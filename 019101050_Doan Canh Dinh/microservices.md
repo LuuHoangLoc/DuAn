@@ -106,3 +106,15 @@ Toàn bộ ứng dụng cần được triển khai lại cho bất kỳ thay đ
 Kết luận sự khác biệt giữa kiến trúc Microservices với kiến trúc Monolithic là 
 
 Microservice là tốt, nhưng không phải cho tất cả các loại ứng dụng. Mẫu này hoạt động tuyệt vời để phát triển các ứng dụng và hệ thống phức tạp. Cân nhắc chọn kiến trúc microservice khi  có nhiều nhóm có kinh nghiệm và khi ứng dụng đủ phức tạp để chia nó thành các dịch vụ. Khi ứng dụng lớn và cần phải linh hoạt và có thể mở rộng, microservice có lợi.
+
+### Thiết kế phần mềm theo kiến trúc Microservice
+
+1.Mỗi microservice nên có một database riêng biệt.
+
+2.Giữ source code của microservice ở mức hợp lý.
+
+3.Tạo build script cho mỗi microservice.
+
+4.Triển khai mỗi microservice bên trong một app (docker container).
+
+5.Stateless server.
