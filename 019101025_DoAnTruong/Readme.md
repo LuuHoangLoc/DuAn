@@ -36,6 +36,12 @@
 - 3.2. Hạn chế của Spring Boot
 4. Tác dụng của Spring Boot
 5. Cách hoạt động Spring Boot trong microservices
+## Chương 4: Jhiptser
+1. Khái niệm jHipster
+2. Cách khởi tạo Monolithic và Microservices
+3. Những câu hỏi cơ bản để khởi tạo project trong jhipster
+4. Tác dụng của việc lựa chọn
+5. Tác dụng của công nghệ jHipster
 # Giới thiệu bản thân
 
 - Tên: Đỗ An Trường / MSSV: 019101025
