@@ -1,9 +1,9 @@
 # Mục lục
 
 ## Giới thiệu về GIT
-### GIT là gì?
-### GIT có tác dụng như thế nào?
-### GIT hoạt động như thế nào?
+### Định nghĩa GIT
+### Chức năng GIT
+### Cách thức hoạt động của GIT
 ### Ưu điểm của GIT là:
 ### Hạn chế của GIT là:
 ### Các thuật ngữ GIT quan trọng là:
@@ -14,19 +14,18 @@
 ### Cách sử dụng GIT
 
 ## Giới thiệu về microservices
-### Microservices là gì ?
-### Microservices có tác dụng như thế nào ?
-###  Ưu điểm khi dùng Microservices
-###  Nhược điểm khi dùng Microservices
-### Ví dụ chỉ ra sự khác biệt giữa kiến trúc Microservices với kiến trúc Monolithic là gì ?
+### Định nghĩa Microservices 
+### Mục đích sử dụng Microservices 
+### Ưu điểm khi dùng Microservices
+### Nhược điểm khi dùng Microservices
+### Sự khác biệt giữa kiến trúc Microservices với kiến trúc Monolithic 
 
 ## Giới thiệu về Spring Boot
-### Spring Boot là gì ?
-### Các ưu điểm của Spring Boot
+### Đinh nghĩa Spring Boot 
 ###  Ưu điểm của Spring Boot
 ### Nhược điểm của Spring Boot
-### Tại sao phải dung spring boot ?
-### Tại sao spring boot áp dụng trong microservices ?
+### Lợi ích khi dùng spring boot 
+### Spring boot  được áp dụng trong microservices .
 
 # Giới thiệu về bản thân
 
