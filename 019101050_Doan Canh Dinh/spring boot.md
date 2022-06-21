@@ -1,10 +1,10 @@
 # Spring Boot
 
-## Spring Boot là gì ?
+## Spring Boot 
 
 ![Image](https://user-images.githubusercontent.com/107390350/173716162-24ab7e6a-7093-4872-893e-cb4b1cd78b66.png)
 
-là một dự án phát triển bởi JAV (ngôn ngữ java) trong hệ sinh thái Spring framework. Nó giúp cho các lập trình viên chúng ta đơn giản hóa quá trình lập trình một ứng dụng với Spring, chỉ tập trung vào việc phát triển business cho ứng dụng.
+Spring Boot là một dự án phát triển bởi JAV (ngôn ngữ java) trong hệ sinh thái Spring framework. Nó giúp cho các lập trình viên chúng ta đơn giản hóa quá trình lập trình một ứng dụng với Spring, chỉ tập trung vào việc phát triển business cho ứng dụng.
 
 Để phát triển một ứng dụng web cơ bản HelloWorld sử dụng Spring framework bạn sẽ cần ít nhất 5 công đoạn sau;
 
@@ -65,7 +65,7 @@ Dễ dàng tích hợp các mô-đun liên quan như Sping-MVC, Spring Data, Spr
 
 3.Không thích hợp cho các dự án quy mô lớn. Hoạt động liên tục với các microservices, theo nhiều nhà phát triển, Spring Boot không phù hợp để xây dựng các ứng dụng nguyên khối.
 
-## Tại sao phải dung spring boot ?
+## Lợi ích khi dùng spring boot 
 
 Tại vì những lợi ích mà nó mang lại :
 
@@ -81,6 +81,6 @@ Tại vì những lợi ích mà nó mang lại :
 
 6.Giúp cung cấp nhiều plugin.
 
-## Tại sao spring boot áp dụng trong microservices ?
+## Spring boot  được áp dụng trong microservices 
 
 Spring Boot đã trở thành một yếu tố không thể thiếu của hệ sinh thái Java, cung cấp một bộ công cụ hiệu quả và có thể mở rộng để xây dựng các ứng dụng Spring với kiến trúc microservices. Do thiết lập mặc định cho các bài kiểm tra đơn vị và tích hợp, nó cho phép các nhà phát triển tận hưởng quá trình triển khai và phát triển được tăng tốc. Hơn nữa, Spring Boot giúp các nhà phát triển xây dựng các ứng dụng mạnh với cấu hình rõ ràng và an toàn mà không tốn nhiều thời gian và công sức để có thêm kiến thức về Spring.

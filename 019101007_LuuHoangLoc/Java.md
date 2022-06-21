@@ -1,6 +1,6 @@
 # BÀI BÁO CÁO
 ## PHẦN 3 : SPRING BOOT
-### 1.1)Spring Boot là gì ?:
+### 1.1)Spring Boot là gì:
 Spring Boot là một Java framework được phát triển bởi Pivital Team dựa trên Java framework mã nguồn mở để tạo ra các microservice, nhằm mục đích xây dựng các ứng dụng Spring độc lập một cách nhanh chóng và có khả năng thực thi ngay.
 
 Sau khi sử dụng Spring Boot để lập trình ứng dụng Spring, bạn có thể chạy ngay ứng dụng của mình mà không cần phải config (cấu hình) quá nhiều.
@@ -20,7 +20,7 @@ Không chỉ dừng lại ở những tính năng đó, với Spring Boot, bạn
 
 ![Mosaic of Pluto in true color](https://wiki.tino.org/wp-content/uploads/2021/07/word-image-1542.png)
 
-### 1.3)Vì sao nên học Spring Boot?:
+### 1.3)Vì sao nên học Spring Boot:
 Để xây dựng một ứng dụng Java, bạn sẽ có vô số công nghệ để có thể sử dụng. Theo TinoHost, đây là 5 tính năng và lợi ích vô cùng thuyết phục vì sao bạn nên chọn `Spring Boot`:
 - Bạn ngán ngẩm việc phải cấu hình từng chút một cho ứng dụng của mình? `Spring Boot` sẽ tự động cấu hình gần như mọi thứ giúp bạn tập trung vào việc `code`.
 - Với một ứng dụng lớn, việc quản lý từng `Microservice` sẽ vô cùng phức tạp. `Spring Boot` sẽ giúp bạn đơn giản hóa việc này.
