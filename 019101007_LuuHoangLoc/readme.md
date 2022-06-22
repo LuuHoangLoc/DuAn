@@ -69,3 +69,4 @@
 ###### b) kiểm tra xem đã cài java, node.js, Git,npm :	
 ##### 3)Tại sao lựa chọn JHipster:	
 ##### 4)Tác dụng JHipster:	
+##### 5) Tạo project trong jhipster ý Nghĩa các công cụ:
