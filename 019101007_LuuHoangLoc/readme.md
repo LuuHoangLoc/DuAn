@@ -58,12 +58,21 @@
 ### **MSSV** : 019101007
 ### **GIỚI TÍNH** : Nam
 ### **NGÀY SINH**: 08/08/2001
-
-
-
-
-
-
-
-
-
+### **PHẦN 4 : JHipster**
+#### 1) JHipster là gì:	
+#### 1.1) Phía máy chủ:	
+#### 1.2) Phía khách hàng:	
+#### 1.3) Triển khai:	
+### 2) In the select the JHipster:	
+### 3) Cách tạo đầu tiên của dự án với JHipster:	
+#### a) Tạo dự án:	
+### 4) làm sao để khởi tạo micorservices:	
+#### 1.1) Tạo một dịch vụ nhỏ cho nhà máy bia:	
+#### a) Quyết định điều kiện:
+#### b) Tạo API cổng:	
+#### c) Tạo dịch vụ ứng dụng vi mô của nhà máy bia:	
+#### d) Tạo các nhà máy bia thực thi:	
+#### e) Run Microservice kiến trúc:	
+#### f) JHipster-registry	
+### 5) làm sao để khởi động gạo nguyên khối:	
+### 6) Ý Nghĩa:	
