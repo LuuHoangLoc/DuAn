@@ -1,4 +1,9 @@
 # **BÀI BÁO CÁO**
+## GIỚI THIỆU BẢN THÂN
+### **HỌ và TÊN** : Lưu Hoàng Lộc
+### **MSSV** : 019101007
+### **GIỚI TÍNH** : Nam
+### **NGÀY SINH**: 08/08/2001
 ## Mục Lục
 #### **PHẦN1:GIỚI THIỆU VỀ GIT:**
 ##### 1.1) GIT là gì:
@@ -53,26 +58,14 @@
 ##### 1.2 Những đặc điểm nổi bật của Spring Boot:
 ##### 1.3 Vì sao nên học Spring Boot?:
 ##### 1.4 Tại sao spring boot áp dung trong Microservices:
-## GIỚI THIỆU BẢN THÂN
-### **HỌ và TÊN** : Lưu Hoàng Lộc
-### **MSSV** : 019101007
-### **GIỚI TÍNH** : Nam
-### **NGÀY SINH**: 08/08/2001
 ### **PHẦN 4 : JHipster**
-#### 1) JHipster là gì:	
-#### 1.1) Phía máy chủ:	
-#### 1.2) Phía khách hàng:	
-#### 1.3) Triển khai:	
-### 2) In the select the JHipster:	
-### 3) Cách tạo đầu tiên của dự án với JHipster:	
-#### a) Tạo dự án:	
-### 4) làm sao để khởi tạo micorservices:	
-#### 1.1) Tạo một dịch vụ nhỏ cho nhà máy bia:	
-#### a) Quyết định điều kiện:
-#### b) Tạo API cổng:	
-#### c) Tạo dịch vụ ứng dụng vi mô của nhà máy bia:	
-#### d) Tạo các nhà máy bia thực thi:	
-#### e) Run Microservice kiến trúc:	
-#### f) JHipster-registry	
-### 5) làm sao để khởi động gạo nguyên khối:	
-### 6) Ý Nghĩa:	
+#### PHẦN 4 : JHipster	
+##### 1)JHipster là gì:	
+###### 1.1)Server side:	
+###### 1.2)Client side:	
+###### 1.3)Deployment:	
+##### 2)Cách khởi tạo Monolithic và Microservices	
+###### a) yêu cầu cài đặt:	
+###### b) kiểm tra xem đã cài java, node.js, Git,npm :	
+##### 3)Tại sao lựa chọn JHipster:	
+##### 4)Tác dụng JHipster:	
