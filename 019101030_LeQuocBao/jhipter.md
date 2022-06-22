@@ -64,32 +64,50 @@ Lệnh cài đặt sau khi cài java, node.js, git:
 
 ![image](https://user-images.githubusercontent.com/107389916/174927582-47c09b8c-22ce-4895-bd95-df232c7a30cf.png)
 
--	Lựa chọn kiến trúc
--	Tên project
--	Chọn port
--	tên package
--	Chọn máy chủ khám phá dịch vụ
--	Chọn xác thực
--	Chọn database liên kết
--	Triển khai database
--	Chọn bộ nhớ đệm
--	Có sử dụng bộ nhớ thứ 2
--	Chọn thư viện maven hoặc gradle
--	Chọn công nghệ
--	Bật công cụ hỗ trợ
--	Chọn ngôn ngữ app
--	Chọn ngôn ngữ tải về
--	Khung thử nghiệm
--	Sử dụng Jhipster Marketplace
--	Chọn module
+# 4.4 Cài đặt Microservices application
+Đây là nơi chúng tôi bắt đầu xây dựng các tính năng thực tế của dự án của tôi. Trong ví dụ này, tôi sẽ tạo Microservices application  đơn giản . Vì vậy, trước tiên tôi sẽ tạo ứng dụng:
 
-# 4.4 Tác dụng của việc lựa chọn
+- Tên project: CodeMicroservice
+- Chọn port: 8081
+- Tên package: com.myapp.microservice
+- Chọn máy chủ khám phá dịch vụ: Jhipster Registry
+
+**Chọn xác thực: JWT authentication**
+
+JSON Web Mã (JWT) là một chuẩn mở (RFC 7519) định nghĩa một cách nhỏ gọn và khép kín để truyền một cách an toàn thông tin giữa các bên dưới dạng đối tượng JSON. Thông tin này có thể được xác minh và đáng tin cậy vì nó có chứa chữ ký số. JWTs có thể được ký bằng một thuật toán bí mật (với thuật toán HMAC) hoặc một public / private key sử dụng mã hoá RSA.
+
+Chọn kiểu dữ liệu:SQL 
+
+Chọn database liên kết: MySQL
+
+Triển khai database trên: MySQL
+
+Chọn bộ nhớ đệm: Ehcache
+
+Chọn thư viện maven hoặc gradle: maven
+
+Chọn công nghệ: Angular
+
+Project trên được tạo ra trên các công nghệ:
+
+Backend: Spring Boot + Spring security
+
+Database: 
+  - MySQL(production)
+
+  - MySQL(development)
+
+Frontend: Bootstrap + SASS + Angular
+
+
+
+# 4.5 Tác dụng của việc lựa chọn
 
 Các lựa chọn trên giúp người dùng lựa chọn và sử dụng các công nghệ phù hợp với dự án của mình để phát triển.
 
 Tạo ra một project nhanh chóng dễ sử dụng.
 
-# 4.5 Tác dụng của công nghệ jHipster
+# 4.6 Tác dụng của công nghệ jHipster
 
 -  Người dùng có thể tạo ra 1 project java web một cách nhanh chóng và đầy đủ các chức năng cần thiết.
 
@@ -102,9 +120,7 @@ Tạo ra một project nhanh chóng dễ sử dụng.
 -  Sau khi generate code người dùng còn có thể tùy chọn việc deloy code của người dùng lên server, Jhipster hỗ trợ nhiều cách khác nhau như: Docker, Aws, HeroKu, Google Cloud Flatform,...
 # 4.6 Ý nghĩa:
 
-- Giúp hoàn thiện dự án một cách nhanh chóng.
-
-- Tạo project dễ dàng.
+JHipter giúp cho chúng ta khởi tạo một projectcủa dự án một cách nhanh chóng. Và dễ dàng quản lý nó.
 
 
 
