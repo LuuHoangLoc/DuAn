@@ -17,7 +17,7 @@ Với những framework frontend mạnh mẽ
 ![Mosaic of Pluto in true color](https://truonggiathien.com.vn/wp-content/uploads/2021/10/imager_3_8671_700.jpg)
 
 ### 1.3)Deployment:
-Deply dự án đơn giản 
+ 
 
 ![Mosaic of Pluto in true color](https://truonggiathien.com.vn/wp-content/uploads/2021/10/imager_3_8671_700.jpg)
  
@@ -77,17 +77,17 @@ Bạn có thể tìm thêm thông tin về cách bắt đầu microfrontends b�
 ###### e)Bộ nhớ đệm phân tán với Hazelcast
 Nếu ứng dụng của bạn sử dụng cơ sở dữ liệu SQL, JHipster đề xuất giải pháp bộ nhớ đệm cấp 2 khác với microservices:
 
-###### .Giải pháp bộ nhớ đệm mặc định của JHipster với microservices là Hazelcast
-###### .Bạn vẫn có thể chọn Ehcache (giải pháp mặc định với các ứng dụng nguyên khối) hoặc Caffeine hoặc chọn hoàn toàn không sử dụng bộ đệm
+- Giải pháp bộ nhớ đệm mặc định của JHipster với microservices là Hazelcast
+- Bạn vẫn có thể chọn Ehcache (giải pháp mặc định với các ứng dụng nguyên khối) hoặc Caffeine hoặc chọn hoàn toàn không sử dụng bộ đệm
 Giải pháp này là giải pháp mặc định với microservices, vì trong kiến ​​trúc này, ý tưởng là bạn sẽ mở rộng các dịch vụ của mình:
 
-###### .với bộ nhớ cache cục bộ, các phiên bản dịch vụ của bạn sẽ không có bộ nhớ cache được đồng bộ hóa, dẫn đến dữ liệu không chính xác
-###### .mà không có bất kỳ bộ nhớ cache nào, gánh nặng của việc mở rộng quy mô sẽ được chuyển sang cơ sở dữ liệu, điều này sẽ không tốt lắm (trừ khi bạn sử dụng tùy chọn Cassandra của chúng tôi)
+- với bộ nhớ cache cục bộ, các phiên bản dịch vụ của bạn sẽ không có bộ nhớ cache được đồng bộ hóa, dẫn đến dữ liệu không chính xác
+- mà không có bất kỳ bộ nhớ cache nào, gánh nặng của việc mở rộng quy mô sẽ được chuyển sang cơ sở dữ liệu, điều này sẽ không tốt lắm (trừ khi bạn sử dụng tùy chọn Cassandra của chúng tôi)
 Sử dụng Hazelcast với microservices sẽ dẫn đến một cấu hình cụ thể:
 
-###### .Khi khởi động, ứng dụng của bạn sẽ kết nối với JHipster Registry để tìm xem các phiên bản khác của cùng một dịch vụ có đang chạy hay không
-###### .Với devhồ sơ, JHipster sẽ tạo một cụm các trường hợp đó trên localhost ( 127.0.0.1), sử dụng một cổng khác nhau cho mỗi trường hợp. Theo mặc định, cổng Hazelcast là your application's port + 5701(vì vậy nếu cổng của ứng dụng của bạn là cổng 8081, thì Hazelcast sẽ sử dụng cổng 13782)
-###### .Với prodcấu hình, JHipster sẽ tạo một cụm với tất cả các nút khác mà nó tìm thấy, sử dụng cổng Hazelcast mặc định ( 5701)
+- Khi khởi động, ứng dụng của bạn sẽ kết nối với JHipster Registry để tìm xem các phiên bản khác của cùng một dịch vụ có đang chạy hay không
+- Với devhồ sơ, JHipster sẽ tạo một cụm các trường hợp đó trên localhost ( 127.0.0.1), sử dụng một cổng khác nhau cho mỗi trường hợp. Theo mặc định, cổng Hazelcast là your application's port + 5701(vì vậy nếu cổng của ứng dụng của bạn là cổng 8081, thì Hazelcast sẽ sử dụng cổng 13782)
+- Với prodcấu hình, JHipster sẽ tạo một cụm với tất cả các nút khác mà nó tìm thấy, sử dụng cổng Hazelcast mặc định ( 5701)
 
 ###### f)Microservices không có cơ sở dữ liệu:
 Chỉ có thể tạo các ứng dụng microservices mà không có cơ sở dữ liệu. Điều này là do microservices nhỏ và không có mã quản lý người dùng.
@@ -95,16 +95,57 @@ Chỉ có thể tạo các ứng dụng microservices mà không có cơ sở d�
 Một microservice không có cơ sở dữ liệu là rất nhỏ và có thể được sử dụng để kết nối với một back-end cụ thể như một hệ thống kế thừa.
 ## 3)Tại sao lựa chọn JHipster:
  Chúng ta sẽ dễ dàng có được một project đủ mạnh mẽ đầy đủ những thứ cơ bản để bắt đầu với thời gian nhanh nhất.Và nếu bạn đang tập tành với Spring để trở thành 1 Java Web developer thì bạn nên quan tâm đến công nghệ này.
- ## 4)Tác dụng JHipster:
- ##### . Tao một ứng dụng 
- ##### . Tạo một thực thể
- ##### . Tạo một Sring Controller
- ##### . Tạo một Sring Service
- ##### . Tạo DTO
- ##### . Quản Lý Các mối quan hệ
- ##### . Quốc Tế hóa
- ##### . Nâng Cấp Ưng Dụng
+ ## 4) Tác dụng JHipster:
+- Tao một ứng dụng 
+- Tạo một thực thể
+- Tạo một Sring Controller
+- Tạo một Sring Service
+- Tạo DTO
+- Quản Lý Các mối quan hệ
+- Quốc Tế hóa
+- Nâng Cấp Ưng Dụng
+ ## 5) Tạo project trong jhipster ý Nghĩa các công cụ:
+![image](https://user-images.githubusercontent.com/107382675/174988610-55c45937-edfb-4d95-a690-375e0e8a70c5.png)
 
- 
+- Microservices là một loại ứng dụng JHipster, không có giao diện người dùng (giao diện người dùng Angular phải được tạo trên một cổng) và hoạt động với JHipster Registry để được định cấu hình, phát hiện và quản lý.
+
+- Tên project: CodeMicroservice
+- Chọn port: 8081
+- tên package: com.myapp.microservice
+- Chọn máy chủ khám phá dịch vụ: Jhipster Registry
+
+JHipster Registry là một ứng dụng thời gian chạy, sử dụng cấu trúc JHipster thông thường, trên đó tất cả các ứng dụng đăng ký và nhận cấu hình của chúng.
+
+- Chọn xác thực: JWT authentication
+JSON Web token (JWT) là một chuẩn mở (RFC 7519) định nghĩa một cách nhỏ gọn và khép kín để truyền một cách an toàn thông tin giữa các bên dưới dạng đối tượng JSON. Thông tin này có thể được xác minh và đáng tin cậy vì nó có chứa chữ ký số. JWTs có thể được ký bằng một thuật toán bí mật (với thuật toán HMAC) hoặc một public / private key sử dụng mã hoá RSA.
+
+- Chọn database liên kết: MySQL
+- Triển khai database: MySQL
+
+MySQL là một hệ thống quản trị cơ sở dữ liệu mã nguồn mở (gọi tắt là RDBMS) hoạt động theo mô hình client-server. Với RDBMS là viết tắt của Relational Database Management System. MySQL được tích hợp apache, PHP. MySQL quản lý dữ liệu thông qua các cơ sở dữ liệu. Mỗi cơ sở dữ liệu có thể có nhiều bảng quan hệ chứa dữ liệu. MySQL cũng có cùng một cách truy xuất và mã lệnh tương tự với ngôn ngữ SQL.
+
+- Chọn bộ nhớ đệm: Ehcache
+
+Ehcache là một bộ đệm dựa trên tiêu chuẩn, mã nguồn mở để tăng hiệu suất, đơn giản hóa khả năng mở rộng và giảm tải cơ sở dữ liệu của người dùng. ehcache được sử dụng để cải thiện hiệu suất bằng cách giảm tải cho các tài nguyên bên dưới. nó cũng có thể được sử dụng để lưu vào bộ nhớ đệm máy chủ hoạt động ổn định, tính liên tục của ứng dụng và bộ nhớ đệm phân tán.
+
+- Chọn thư viện maven hoặc gradle: maven
+Maven là công cụ quản lý và thiết lập tự động 1 dự án phần mềm. Chủ yếu dùng cho các lập trình viên java, nhưng nó cũng có thể được dùng để xây dựng và quản lý các dự án dùng C#, Ruby, Scala hay ngôn ngữ khác.
+
+- Chọn công nghệ: Angular
+Angular là một javascript framework do google phát triển để xây dựng các Single Page Application (SPA) bằng JavaScript , HTML và TypeScript . Angular cung cấp các tính năng tích hợp cho animation , http service và có các tính năng như auto-complete , navigation , toolbar , menus ,… Code được viết bằng TypeScript , biên dịch thành JavaScript và hiển thị tương tự trong trình duyệt.
+
+- Chọn ngôn ngữ App: English
+- Chọn ngôn ngữ tải về: Vietnamese
+Project được tạo ra trên hình theo các công nghệ:
+
+- Backend: Spring Boot + Spring security
+
+- Database:
+
+  - MySQL(production)
+
+  - MySQL(development)
+- Frontend: Bootstrap + SASS + Angular
+
 
 
