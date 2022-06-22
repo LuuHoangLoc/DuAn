@@ -1,9 +1,9 @@
 # **BÀI BÁO CÁO**
 ## Mục Lục
 #### **PHẦN1:GIỚI THIỆU VỀ GIT:**
-##### 1.1) GIT là gì?:
-##### 1.2) Công Dung Của GIT?:
-##### 1.3) GIT hoạt động như thế nào?:
+##### 1.1) GIT là gì:
+##### 1.2) Công Dung Của GIT:
+##### 1.3) GIT hoạt động như thế nào:
 ##### 1.4) Những Ưu điểm của GIT là:
 ##### 1.5) Những Nhược điểm của GIT là:
 ##### 1.6) Các thuật ngữ GIT quan trọng là:
@@ -12,6 +12,7 @@
 ###### b)git init
 ###### c)git clone
 ###### d)git status
+###### f)git commit
 ###### e)git add
 ###### g)git push/ git pull
 ###### h)git branch
@@ -36,7 +37,7 @@
 ##### 1.3) Các ưu điểm và nhược điểm nổi bật của Microservices là gì?:
 ###### a) Ưu điểm nổi trội của Microservices là gì?:
 ###### b) Nhược điểm còn tồn tại:
-##### 1.4) Các lợi ích mang lại của Microservices là gì?:
+##### 1.4) Các lợi ích mang lại của Microservices là gì:
 ##### 1.5) Bạn nên sử dụng kiến trúc Microservices khi nào là hợp lý:
 ##### 1.6) Các vấn đề nên lưu ý khi thiết kế Microservices:
 #### 1.7) So sánh giữa kiến trúc Microservice và Monolithic:

@@ -2,11 +2,11 @@
 
 ## PHẦN1:GIỚI THIỆU VỀ GIT
 
-### 1.1) GIT là gì?:
+### 1.1) GIT là gì:
 
  Là một hệ thống quản lý phiên bản phân tán(Distributed Version Control System-DVCS)ra đời vào năm 2005 và hiện được dùng rất phổ biến.So với các hệ thống quản lý phiên bản tập trung khi tất cả các mã nguồn và lịch sử thay đổi chỉ được lưu một nơi là máy chủ thì trong hệ thống phân tán, các máy không chỉ "check out" phiên bản mới nhất của các tập tin mà là sao chép(mirror)toàn bộ kho mã nguồn(repository).Như vậy, nếu như máy chủ ngừng hoạt động , thì bạn hoàn toàn có thể lấy kho chứa từ bắt kì máy khách nào để sao chép ngược trở lại máy chủ để khôi phục lại toàn bộ hệ thống.Mỗi checkout thực sự là một bản sao đầy đủ của tất cả dữ liệu của kho chưá từ máy chủ.
 
-## 1.2) Công Dung Của GIT?:
+## 1.2) Công Dung Của GIT:
 
 a. Lưu lại lịch sử các version của bất kỳ thay đổi nào của dự án. Giúp xem lại các sự thay đổi hoặc khôi phục (revert) lại sau này.
 
@@ -14,7 +14,7 @@ b. Việc chia sẻ code trở nên dễ dàng hơn, lập trình viên có th�
 
 c. Vốn là một VCS nên Git cũng ghi nhớ lại toàn bộ lịch sử thay đổi của source code trong dự án. Lập trình sửa file, thêm dòng code tại đâu, xóa dòng code ở hàng nào…đều được Git ghi nhận và lưu trữ lại.
 
-## 1.3) GIT hoạt động như thế nào? :
+## 1.3) GIT hoạt động như thế nào:
 
 Sự khác biệt chính giữa Git và bất kỳ VCS nào khác (bao gồm Subversion…) là cách Git nghĩ về dữ liệu của nó.
 
@@ -129,9 +129,9 @@ Tác dụng: Để đưa một tập tin vào Staging Area
 
 Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục thì git add all
 
-## 1.8) So sánh GIT và các phần mềm khác
+## 1.8) So sánh GIT và các phần mềm khác:
 Đây là điểm khác biệt quan trọng giữa Git và gần như tất cả các VCS khác. Nó khiến Git phải xem xét lại hầu hết mọi khía cạnh của kiểm soát phiên bản mà hầu hết các hệ thống khác đã sao chép từ thế hệ trước. Điều này làm cho Git giống như một hệ thống tệp nhỏ với một số công cụ cực kỳ mạnh mẽ được xây dựng trên nó, thay vì chỉ đơn giản là một VCS.
-## 1.9) Khi sử dụng GIT
+## 1.9) Khi sử dụng GIT:
 
 - Lưu lại được các phiên bản khác nhau của mã nguồn dự án phần mềm.
 
@@ -147,7 +147,7 @@ Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục t
 
 - Giúp phối hợp thực hiện dự án trong một nhóm 1 cách hiệu quả.
 
-## 2.0) Khi không sử dụng GIT
+## 2.0) Khi không sử dụng GIT:
 
 - Không khôi phục được mã code lỡ xóa gây ra lỗi.
 
@@ -157,7 +157,7 @@ Cách dùng: git add tên_file hoặc muốn thêm hết file của thư mục t
 
 - Khả năng phối hợp dự án trong nhóm bị hạn chế.
 
-## 2.1) Cách sử dụng GIT
+## 2.1) Cách sử dụng GIT:
 
 a. Tạo tài khoản GitHub
 
