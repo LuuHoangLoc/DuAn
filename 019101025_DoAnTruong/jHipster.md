@@ -60,30 +60,64 @@ Cách tạo Microservices
 
 ![image](https://user-images.githubusercontent.com/107389856/174557813-7ffc1f0f-6605-403e-be69-b152a75a51bb.png)
 
-- Lựa chọn kiến trúc
-- Tên project
-- Chọn port
-- tên package
-- Chọn máy chủ khám phá dịch vụ
-- Chọn xác thực
-- Chọn database liên kết
-- Triển khai database
-- Chọn bộ nhớ đệm
-- Có sử dụng bộ nhớ thứ 2
-- Chọn thư viện maven hoặc gradle
-- Chọn công nghệ
-- Bật công cụ hỗ trợ
-- Chọn ngôn ngữ app
-- Chọn ngôn ngữ tải về
-- Khung thử nghiệm
-- Sử dụng Jhipster Marketplace
-- Chọn module
+- Lựa chọn kiến trúc: Microservices application
+
+Microservices là tên gọi của các dịch vụ nhỏ thuộc dạng tách biệt đại diện cho 1 phần nhỏ tương ứng bên trong các Business domain của lập trình viên. Với kiến thức Monolithic thì người dùng sẽ sở hữu một server lớn với khả năng chịu mọi trách nhiệm giải quyết hầu hết các requests. Và việc này sẽ gây ra khá nhiều khó khăn trên các phương tiện đối với tất cả requests. 
+
+- Tên project: CodeMicroservice
+- Chọn port: 8081
+- tên package: com.myapp.microservice
+- Chọn máy chủ khám phá dịch vụ: Jhipster Registry
+
+JHipster Registry là một ứng dụng thời gian chạy, sử dụng cấu trúc JHipster thông thường, trên đó tất cả các ứng dụng đăng ký và nhận cấu hình của chúng.
+
+- Chọn xác thực: JWT authentication
+
+JSON Web token (JWT) là một chuẩn mở (RFC 7519) định nghĩa một cách nhỏ gọn và khép kín để truyền một cách an toàn thông tin giữa các bên dưới dạng đối tượng JSON. Thông tin này có thể được xác minh và đáng tin cậy vì nó có chứa chữ ký số. JWTs có thể được ký bằng một thuật toán bí mật (với thuật toán HMAC) hoặc một public / private key sử dụng mã hoá RSA.
+
+- Chọn database liên kết: MySQL
+- Triển khai database: MySQL
+
+MySQL là một hệ thống quản trị cơ sở dữ liệu mã nguồn mở (gọi tắt là RDBMS) hoạt động theo mô hình client-server. Với RDBMS là viết tắt của Relational Database Management System. MySQL được tích hợp apache, PHP. MySQL quản lý dữ liệu thông qua các cơ sở dữ liệu. Mỗi cơ sở dữ liệu có thể có nhiều bảng quan hệ chứa dữ liệu. MySQL cũng có cùng một cách truy xuất và mã lệnh tương tự với ngôn ngữ SQL.
+
+- Chọn bộ nhớ đệm: Ehcache
+
+Ehcache là một bộ đệm dựa trên tiêu chuẩn, mã nguồn mở để tăng hiệu suất, đơn giản hóa khả năng mở rộng và giảm tải cơ sở dữ liệu của người dùng. ehcache được sử dụng để cải thiện hiệu suất bằng cách giảm tải cho các tài nguyên bên dưới. nó cũng có thể được sử dụng để lưu vào bộ nhớ đệm máy chủ hoạt động ổn định, tính liên tục của ứng dụng và bộ nhớ đệm phân tán.
+
+- Chọn thư viện maven hoặc gradle: maven
+
+Maven là công cụ quản lý và thiết lập tự động 1 dự án phần mềm. Chủ yếu dùng cho các lập trình viên java, nhưng nó cũng có thể được dùng để xây dựng và quản lý các dự án dùng C#, Ruby, Scala hay ngôn ngữ khác.
+
+- Chọn công nghệ: Angular
+
+Angular là một javascript framework do google phát triển để xây dựng các Single Page Application (SPA) bằng JavaScript , HTML và TypeScript . Angular cung cấp các tính năng tích hợp cho animation , http service và có các tính năng như auto-complete , navigation , toolbar , menus ,… Code được viết bằng TypeScript , biên dịch thành JavaScript và hiển thị tương tự trong trình duyệt.
+
+Project được tạo ra trên hình theo các công nghệ:
+
+- Backend: Spring Boot + Spring security
+
+- Database: 
+
+        - MySQL(production)
+
+        - MySQL(development)
+
+- Frontend: Bootstrap + SASS + Angular
 
 ## 4. Tác dụng của việc lựa chọn
 
 Các lựa chọn trên giúp người dùng lựa chọn và sử dụng các công nghệ hiện đại theo ý người dùng để phát triển.
 
-Tạo ra một project nhanh chóng dễ sử dụng.
+- Tạo ra một project nhanh chóng dễ sử dụng.
+- Tạo Microservices Với JHipster.
+- Tạo cổng API.
+- Tạo thực thể.
+- Thêm Logic kinh doanh.
+- Thực hiện các cải tiến về giao diện người dùng.
+- Cho phép HTML.
+- Tạo một dịch vụ nhỏ.
+- Tạo thực thể sản phẩm.
+- Triển khai lên đám mây.
 
 ## 5. Tác dụng của công nghệ jHipster
 
@@ -92,4 +126,3 @@ Tạo ra một project nhanh chóng dễ sử dụng.
 - Phía Frontend người dùng có thể dùng các framework như React, Angular, VueJs, ...
 - Người dùng cũng có thể sử dụng nhiều loại cơ sở dữ liệu khác nhau cả Sql và NoSql như MySql, Cassandra, MongoDb,...
 - Sau khi generate code người dùng còn có thể tùy chọn việc deloy code của người dùng lên server, Jhipster hỗ trợ nhiều cách khác nhau như: Docker, Aws, HeroKu, Google Cloud Flatform,...
-
