@@ -62,7 +62,7 @@ Cách tạo Microservices
 
 - Lựa chọn kiến trúc: Microservices application
 
-Microservices là tên gọi của các dịch vụ nhỏ thuộc dạng tách biệt đại diện cho 1 phần nhỏ tương ứng bên trong các Business domain của lập trình viên. Với kiến thức Monolithic thì người dùng sẽ sở hữu một server lớn với khả năng chịu mọi trách nhiệm giải quyết hầu hết các requests. Và việc này sẽ gây ra khá nhiều khó khăn trên các phương tiện đối với tất cả requests. 
+Microservices là một loại ứng dụng JHipster, không có giao diện người dùng (giao diện người dùng Angular phải được tạo trên một cổng) và hoạt động với JHipster Registry để được định cấu hình, phát hiện và quản lý.
 
 - Tên project: CodeMicroservice
 - Chọn port: 8081
