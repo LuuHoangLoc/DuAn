@@ -92,6 +92,9 @@ Maven là công cụ quản lý và thiết lập tự động 1 dự án phần
 
 Angular là một javascript framework do google phát triển để xây dựng các Single Page Application (SPA) bằng JavaScript , HTML và TypeScript . Angular cung cấp các tính năng tích hợp cho animation , http service và có các tính năng như auto-complete , navigation , toolbar , menus ,… Code được viết bằng TypeScript , biên dịch thành JavaScript và hiển thị tương tự trong trình duyệt.
 
+- Chọn ngôn ngữ App: English
+- Chọn ngôn ngữ tải về: Vietnamese
+
 Project được tạo ra trên hình theo các công nghệ:
 
 - Backend: Spring Boot + Spring security
