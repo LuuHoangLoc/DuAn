@@ -2,4 +2,4 @@
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
-![Capture](https://user-images.githubusercontent.com/107390350/175538160-c5271fd3-d054-4306-9d94-28f1bb381cd1.PNG)
+![image](https://user-images.githubusercontent.com/107390350/176072943-08065e38-8c1b-47b2-936a-9417531f4afd.png)
