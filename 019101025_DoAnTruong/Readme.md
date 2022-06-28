@@ -42,6 +42,8 @@
 3. Những câu hỏi cơ bản để khởi tạo project trong jhipster
 4. Tác dụng của việc lựa chọn
 5. Tác dụng của công nghệ jHipster
+## UseCase
+1. Sơ đồ usecase
 # Giới thiệu bản thân
 
 - Tên: Đỗ An Trường / MSSV: 019101025
