@@ -25,7 +25,28 @@
 ###  Ưu điểm của Spring Boot
 ### Nhược điểm của Spring Boot
 ### Lợi ích khi dùng spring boot 
-### Spring boot  được áp dụng trong microservices .
+### Spring boot  được áp dụng trong microservices 
+
+## Giới thiệu về JHipster
+### Định nghĩa về JHipster
+### Lựa chọn JHHipster trong lập trình
+### Tạo project đầu tiên với JHipster
+### Tác dụng công nghệ JHipster
+### Khởi tạo monolithic bằng JHipster
+### Khởi tạo micorservices bằng JHipster
+
+## Sơ dồ dự án
+### 1.Sơ đồ Usecase: 
+### 2.Sơ đồ Class:
+### 3.Sơ đồ tuần tự:
+#### Nhân viên y tế:
+##### 1.Thêm thông tin:
+##### 2.Cập nhật thông tin:
+##### 3.Xóa thông tin:
+#### Lanh dao
+##### 1.Thêm thông tin:
+##### 2.Cập nhật thông tin:
+##### 3.Xóa thông tin:
 
 # Giới thiệu về bản thân
 
