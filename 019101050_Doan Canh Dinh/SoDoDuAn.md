@@ -10,36 +10,31 @@ QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
-![photo_6186100366786015582_y](https://user-images.githubusercontent.com/107390350/176339001-c1ee1ef2-85d7-4120-a048-fd7c80fd24e1.jpg)
+![image](https://user-images.githubusercontent.com/107390350/176847681-3651c27e-45bb-4dbe-9424-35a71e12fbed.png)
 
 ## 3.Sơ đồ tuần tự:
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
-### Nhân viên y tế:
+### Nhân viên 
 
 1.Thêm thông tin:
 
-![Capture2](https://user-images.githubusercontent.com/107390350/176339272-12144cf6-21b5-4817-bab6-314ae90c7c18.PNG)
+![image](https://user-images.githubusercontent.com/107390350/176848218-2e767d01-69bc-4248-b647-de633d9b751d.png)
+
 
 2.Cập nhật thông tin:
 
-![Capture3](https://user-images.githubusercontent.com/107390350/176339553-3bb23c55-726e-4117-b056-6b2f5c8b93ff.PNG)
+![image](https://user-images.githubusercontent.com/107390350/176848327-02cd5665-849e-4cdf-a2bf-04aa7c6e2c3f.png)
 
 3.Xóa thông tin:
 
-![Capture4](https://user-images.githubusercontent.com/107390350/176339679-a7564ea4-5717-4b89-869e-5aea9cf1ef8a.PNG)
+![image](https://user-images.githubusercontent.com/107390350/176848414-6dc2f222-834c-42aa-992d-102f35dc7c78.png)
 
-### Lãnh đạo:
+4.Tìm kiếm thông tin:
 
-1.Thêm thông tin:
+![image](https://user-images.githubusercontent.com/107390350/176848504-c03bac5c-4635-4e8f-a3a4-4ded06974628.png)
 
-![image](https://user-images.githubusercontent.com/107390350/176339826-848962f4-5dd4-42e0-9ddb-a845b357f007.png)
+5.Gửi thông tin:
 
-2.Cập nhật thông tin :
-
-![image](https://user-images.githubusercontent.com/107390350/176339906-a79b646f-bd8a-4a7d-8472-8ab92d2405dc.png)
-
-3.Xóa thông tin:
-
-![image](https://user-images.githubusercontent.com/107390350/176340012-3daccdcd-0b2c-49b1-9d97-c09b1999c491.png)
+![image](https://user-images.githubusercontent.com/107390350/176848603-cc4ed8d6-42f3-4cc2-99f2-663f5e5fed0d.png)
