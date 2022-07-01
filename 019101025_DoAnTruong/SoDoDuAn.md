@@ -4,35 +4,29 @@
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
-![image](https://user-images.githubusercontent.com/107389856/176072390-43d9276a-e286-4b24-b2a2-39730bc312c5.png)
+![image](https://user-images.githubusercontent.com/107389856/176847715-29765978-8392-4ff7-944f-e5d6adc60879.png)
+
 
 ## 2. Sơ đồ Class
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
 
-![image](https://user-images.githubusercontent.com/107389856/176338658-7f5844e8-7800-4bd4-aca2-a40529182e92.png)
-
+![image](https://user-images.githubusercontent.com/107389856/176847790-3ca0c036-62f3-4755-b6b5-c24c26109cd4.png)
 ## 3. Sơ đồ tuần tự
 
 QUY TRÌNH GIẢI QUYẾT VÀ BÁO CÁO SỰ CỐ Y KHOA QT.17.HT
+#### 3.1. Thêm thông tin
 
-#### 3.1. Nhân viên y tế
-- Thêm thông tin
+![image](https://user-images.githubusercontent.com/107389856/176848011-de7a3d65-d400-44cc-bcea-5d8f137246bc.png)
+#### 3.2. Cập nhật thông tin
 
-![image](https://user-images.githubusercontent.com/107389856/176339726-434f4366-d3a4-4372-9646-b2d947827aa7.png)
-- Cập nhật thông tin
+![image](https://user-images.githubusercontent.com/107389856/176848086-851f7a87-0294-4aba-a594-af14001238b2.png)
+#### 3.3. Xóa thông tin
 
-![image](https://user-images.githubusercontent.com/107389856/176339676-d097260a-e129-4410-b01c-888578445ee7.png)
-- Xóa thông tin
+![image](https://user-images.githubusercontent.com/107389856/176848150-b7da1e44-1c63-48b0-8587-50acc6ebb674.png)
+#### 3.4. Tìm kiếm thông tin
 
-![image](https://user-images.githubusercontent.com/107389856/176339634-c4ed119f-a108-4d9e-957e-e31366413277.png)
-#### 3.2. Lãnh đạo
-- Thêm thông tin
+![image](https://user-images.githubusercontent.com/107389856/176848642-cc4174e3-c38f-47a2-84ea-0370b0888308.png)
+#### 3.5. Gửi thông tin báo cáo
 
-![image](https://user-images.githubusercontent.com/107389856/176339055-e0e0abf3-ab28-4e03-b236-36495cb3c3be.png)
-- Cập nhật thông tin
-
-![image](https://user-images.githubusercontent.com/107389856/176339192-792bbef4-8eed-42c8-9818-054912cfb959.png)
-- Xóa thông tin
-
-![image](https://user-images.githubusercontent.com/107389856/176339289-5f8d4685-96a7-4f83-8b0b-d4aa9dc3e176.png)
+![image](https://user-images.githubusercontent.com/107389856/176848549-d6cf038b-f6fe-472b-9abc-7b53beecc94b.png)

@@ -46,8 +46,11 @@
 1. Sơ đồ Usecase
 2. Sơ đồ Class
 3. Sơ đồ tuần tự
-- 3.1. Nhân viên y tế
-- 3.2. Lãnh đạo
+- 3.1. Thêm thông tin
+- 3.2. Cập nhật thông tin
+- 3.3. Xóa thông tin
+- 3.4. Tìm kiếm thông tin
+- 3.5. Gửi thông tin báo cáo
 # Giới thiệu bản thân
 
 - Tên: Đỗ An Trường / MSSV: 019101025
