@@ -39,15 +39,12 @@
 ### 1.Sơ đồ Usecase: 
 ### 2.Sơ đồ Class:
 ### 3.Sơ đồ tuần tự:
-#### Nhân viên y tế:
+#### Nhân viên 
 ##### 1.Thêm thông tin:
 ##### 2.Cập nhật thông tin:
 ##### 3.Xóa thông tin:
-#### Lanh dao
-##### 1.Thêm thông tin:
-##### 2.Cập nhật thông tin:
-##### 3.Xóa thông tin:
-
+##### 4.Tìm kiếm:
+##### 5.Gửi:
 # Giới thiệu về bản thân
 
 - Tên: Đoàn Cảnh Dinh / 019101050
