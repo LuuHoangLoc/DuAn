@@ -45,6 +45,17 @@
 ##### 3.Xóa thông tin:
 ##### 4.Tìm kiếm:
 ##### 5.Gửi:
+
+## Giới thiệu JDL-JHipster:
+### Tổng quan:Ngôn ngữ miền JHipster (JDL)
+### Ứng dụng.
+### Thực thể.
+### Enums.
+### Mối quan hệ.
+### Tùy chọn.
+### Triển khai
+### Xử lý sự cố.
+
 # Giới thiệu về bản thân
 
 - Tên: Đoàn Cảnh Dinh / 019101050
